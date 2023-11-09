@@ -13,7 +13,7 @@ function tocaSomPuff() {document.querySelector('#som_tecla_puff').play();}
 document.querySelector('.tecla_puff') .onclick = tocaSomPuff;
 
 function tocaSomSplash() {document.querySelector('#som_tecla_splash').play();}
-document.querySelector('.tecla_splah') .onclick = tocaSomSplah;
+document.querySelector('.tecla_splash') .onclick = tocaSomSplash;
 
 function tocaSomToim() {document.querySelector('#som_tecla_toim').play();}
 document.querySelector('.tecla_toim') .onclick = tocaSomToim;
@@ -27,4 +27,10 @@ document.querySelector('.tecla_tic') .onclick = tocaSomTic;
 function tocaSomTom() {document.querySelector('#som_tecla_tom').play();}
 document.querySelector('.tecla_tom') .onclick = tocaSomTom;
 
-constante Listadeteclas = document.querySelectorAll('.tecla')
+const Listadeteclas = document.querySelectorAll('.tecla')
+
+
+Listadeteclas[0].onclick=tocaSomPom while (condition) {
+    
+}
+    
